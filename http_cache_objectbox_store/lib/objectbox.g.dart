@@ -193,6 +193,7 @@ obx.Store openStore(
 /// [obx.Store.new].
 obx_int.ModelDefinition getObjectBoxModel() {
   final model = obx_int.ModelInfo(
+      generatorVersion: obx_int.GeneratorVersion.v2025_12_16,
       entities: _entities,
       lastEntityId: const obx_int.IdUid(2, 3591291115973887432),
       lastIndexId: const obx_int.IdUid(1, 8984911200634127343),
